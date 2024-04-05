@@ -35,7 +35,7 @@ def savings(gross_pay, tax_rate, expenses):
     # Stay within the function. Only use the parameters as input. The function should return your answer.
     savings = gross_pay - (gross_pay * tax_rate) - expenses
 
-    return savings
+    return int(savings)
 
 def material_waste(total_material, material_units, num_jobs, job_consumption):
     '''Material Waste.
